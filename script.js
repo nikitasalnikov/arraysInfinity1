@@ -24,8 +24,8 @@ for (let i = 0; i < Infinity; i++) {
             console.log("Value not present in list")
         }
 
-
-        console.log(arr);
+        var str = arr.join(' ');
+        console.log(str);
     }
     if (index === "stop") {
         break;
